@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="./static/coincap-logo-B1854DA521-seeklogo.com.png"
+      type="image/png"
+    />
+
+    <title>
+      CoinCap.io | Reliable Cryptocurrency Prices and Market Capitalizations
+    </title>
+    <meta
+      name="description"
+      content="Reliable Cryptocurrency Prices and Market Capitalizations"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <a
+        href="https://app.shapeshift.com/?utm_source=CoinCap&utm_medium=Banner&utm_campaign=Buy+%26+Sell#/connect-wallet?returnUrl=/buy-crypto"
+      >
+        <img src="./static/ss-mark-white.svg" /> Buy, sell, & swap your favorite
+        assets. No KYC. No added fees. Decentralized.
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="white"
+        >
+          <path d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z"
+          />
+        </svg>
+      </a>
+    </header>
+    <nav>
+      <div class="nav-left">
+        <a href="https://coincap.io">Coins</a>
+        <a href="https://coincap.io/exchanges">Exchanges</a>
+        <a>Contact us</a>
+      </div>
+      <div class="nav-logo">
+        <a href="https://coincap.io">
+          <img src="../static/black.svg" />
+        </a>
+      </div>
+      <div class="nav-right">
+        <a class="usd">USD<i class="fa-solid fa-caret-down"></i></a>
+        <a class="language">English<i class="fa-solid fa-caret-down"></i></a>
+        <a><i class="fa fa-search"></i></a>
+        <a><i class="fa fa-cog"></i> </a>
+      </div>
+    </nav>
+    <!--Responsive nav-->
+    <nav class="res-nav">
+      <a><i class="fa fa-search"></i></a>
+      <div class="nav-logo">
+        <a href="https://coincap.io">
+          <img src="./static/black.svg" />
+        </a>
+      </div>
+      <i class="fa fa-bars"></i>
+    </nav>
+    <main>
+      <section class="site-detail">
+        <div class="detail market-cap">
+          <p>MARKET CAP</p>
+          <h3>n</h3>
+        </div>
+        <div class="detail exchange-vol">
+          <p>EXCHANGE VOL</p>
+          <h3>n</h3>
+        </div>
+        <div class="detail assets">
+          <p>ASSETS</p>
+          <h3>n</h3>
+        </div>
+        <div class="detail exchanges">
+          <p>EXCHANGES</p>
+          <h3>n</h3>
+        </div>
+        <div class="detail Markets">
+          <p>MARKETS</p>
+          <h3>n</h3>
+        </div>
+        <div class="detail btc-dom">
+          <p>BTC DOM INDEX</p>
+          <h3>n</h3>
+        </div>
+      </section>
+      <!--site detail responsive-->
+      <div class="res-site-detail">
+        <i class="fa-solid fa-caret-right"></i>
+      </div>
+      <!--main list header-->
+      <section class="currency-list">
+        <div class="currency-list-header">
+          <div class="left-list">
+            <button>Rank <i class="fa-solid fa-caret-up"></i></button>
+            <button>Name</button>
+          </div>
+          <div class="right-list">
+            <button>Price</button>
+            <button>Market Cap</button>
+            <button>VWAP (24Hr)</button>
+            <button>Supply</button>
+            <button>Volume (24Hr)</button>
+            <button>Change (24Hr)</button>
+          </div>
+        </div>
+        <!--main list-->
+
+        <div class="error"></div>
+      </section>
+    </main>
+    <button id="more">Load More</button>
+    <script src="app.js"></script>
+  </body>
+</html>

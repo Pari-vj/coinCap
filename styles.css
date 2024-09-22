@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+   
+}
+  
+     header{
+        background: linear-gradient(97.53deg, rgb(246, 135, 179) 5.6%, rgb(123, 97, 255) 59.16%, rgb(22, 209, 161) 119.34%);
+        padding: 6px 16px;
+     }
+     header a{
+        text-decoration: none;
+        color: #fff;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+     }
+   header img{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    min-width: 25px;
+    min-height: 25px;
+   }
+   header svg {
+    width: 15px;  
+    height: 15px;
+    min-width: 15px;
+    min-height: 15px;
+    margin-left: 8px;
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+padding: 14px 30px;
+
+}
+@media (min-width: 1229px) {
+    nav{
+        gap: 25vw;
+    }
+}
+@media (min-width: 946px) and (max-width: 1310px) {
+    nav{
+        gap: 15vw;
+    }
+}
+@media (min-width: 769px) and (max-width: 946px) {
+    nav{
+        gap: 7vw;
+    }
+}
+
+nav a{
+    text-decoration: none;
+    color: #0d0d0d;
+}
+.nav-left{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+    font-size: 14px;
+    font-weight: 400;
+    gap: 40px;
+}
+.nav-logo{
+    width: 80px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+        font-size: 14px;
+        font-weight: 400;
+        color: #0d0d0d;
+        gap: 40px;
+}
+.usd i, .language i{
+    font-size: 11px;
+    margin-left: 14px;
+}
+.res-nav{
+    display: none;
+}
+ .site-detail{
+        background: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246)) rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 1% 12% 9% 12%;
+        flex-wrap: wrap;
+        flex: 1 1 15%;
+ }
+ .detail{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .detail h3{
+    font-weight: 400;
+ }
+ .detail p{
+font-weight: 500;
+font-size: 0.9rem;
+ }
+
+@media (max-width: 900px) {
+    .site-detail {
+        justify-content: center; 
+        padding-bottom: 15%;
+    }
+
+    .detail {
+        flex: 1 1 30%; 
+    }
+}
+
+.currency-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.currency-list-header{
+    padding:1%;
+    width: 80%;
+    margin-top: -8%;
+    background-color: #fafafa;
+    color: #646464;
+    border-top-left-radius: 4px;
+    display: flex;
+}
+.left-list{
+    display: flex;
+    flex: 0.8;
+    flex-direction: row;
+    align-items: center;
+gap: 10%;
+
+}
+.right-list{
+    display: flex;
+    flex: 1.2;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.currency-list-header button{
+    background: none;
+    border: none;
+    padding:0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    font-size: 12px;
+}
+.currency-list button:focus{
+    outline: none;
+}
+.currency-list button:hover{
+    color: #191919;
+}
+.currency-list button:active{
+    color: #191919;
+}
+.currency-list-info{
+    flex-direction: row;
+    padding:1%;
+    width: 80%;
+    background-color: #fff;
+    color: #191919;
+    display: flex;
+    border-top: 1px solid #e4e4e4;
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.currency-list-info:hover{
+    background-color: #efeeee;  
+}
+.currency-list-info h4{
+    font-weight: 400;
+    font-size: 14px;
+}
+.currency-list-info h5{
+    font-weight: 300;
+}
+.currency-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.currency-name img{
+width: 20px;
+height: 20px;
+margin: 5px;
+}
+.name-group{
+    padding: 0 15%;
+}
+@media (max-width: 768px) {
+    nav{
+        display: none;
+    }
+    .res-nav{
+        display: flex;
+       justify-content: space-between;
+       padding: 14px 25px;
+    }
+ }
+    @media (min-width: 769px) {
+     
+    }
+
+   
